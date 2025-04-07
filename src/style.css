@@ -1,0 +1,98 @@
+* {
+  font-family: OpenTextSans, sans-serif;
+}
+
+.ot2-sample-header {
+  background-color: #111B58;
+  height: 70px;
+  width: 750px;
+  color: white;
+  margin: 0 0 0 0;
+  padding: 20px 0 0 20px;
+  font-size: 36px;
+}
+
+.ot2-body {
+  margin: 20px;
+}
+
+button {
+  background-color: rgb(99, 75, 68);
+  color: rgb(255, 255, 255);
+  height: auto;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 4px 60px;
+  line-height: 24px;
+  border: 1px solid rgb(99, 75, 68);
+  font-size: 14px;
+  margin-left: 150px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+input[type="text"][readonly], textarea[readonly] {
+    color: grey;
+}
+
+.fileButton {
+  background-color: rgb(99, 75, 68);
+  color: rgb(255, 255, 255);
+  height: auto;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 4px 24px;
+  line-height: 24px;
+  border: 1px solid rgb(99, 75, 68);
+  font-size: 14px;
+  float: none;
+  width: 132px;
+}
+
+button:hover, .fileButton:hover {
+  background-color: rgb(62, 49, 51);
+}
+
+button:active, .fileButton:hover {
+  background-color: rgb(62, 49, 51);
+}
+
+hr {
+  width: 460px
+}
+
+label{
+  display: inline-block;
+  float: left;
+  clear: left;
+  width: 200px;
+  text-align: left;
+  font-size: 14px;
+}
+input {
+  display: inline-block;
+  float: left;
+  width: 250px;
+}
+select {
+  display: inline-block;
+  float: left;
+  width: 256px;
+}
+input[type=radio] {
+  float: none;
+  width: 20px;
+}
+label[for="assist_required_radio"]{
+  float: none;
+  width: 20px;
+}
+.other {
+  margin-left: 10px;
+}
+.requiredlabel:after {
+  content:" *";
+  color: red;
+}
